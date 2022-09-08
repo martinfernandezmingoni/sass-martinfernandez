@@ -1,0 +1,28 @@
+body{
+    background-color: $lavanda;
+}
+
+$saludo: 135;
+
+// .parrafo{
+//     font-family: $cursiva;
+//     @if($saludo < 50) {
+//         font-family: 'Courier New', Courier, monospace;
+//         font-size: 18px;
+//     } @else{
+//         font-size: 20px;
+//         background-color: $menta;
+//         color: $uva;
+//     }
+
+// }
+
+.parrafo{
+    @extend %estiloParrafo;
+    @include fontStyle($menta, 3rem)
+}
+
+.section{
+    @extend %estiloParrafo;
+    @include fontStyle ($rojoMedio, 1rem);
+}

@@ -2,8 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
+    height: $altoMinimo - 28vh;
     &__logo{
-            margin-left: 1rem;}
+            margin-left: 1rem;
+            height: $altoMinimo - 33vh;
+        }
+            
     &__ul{
         list-style: none;
         &--active{
@@ -24,10 +28,3 @@
     background-color: $menta !important;
 }
 
-body{
-    background-color: $lavanda;
-}
-
-p{
-    font-family: $cursiva;
-}

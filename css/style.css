@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Inknut+Antiqua:wght@300&display=swap");
+.parrafo, .section {
+  text-align: center;
+  font-size: 18px; }
+
 * {
   padding: 0;
   margin: 0;
@@ -7,9 +11,11 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-content: center; }
+  align-content: center;
+  height: 22vh; }
   .header__logo {
-    margin-left: 1rem; }
+    margin-left: 1rem;
+    height: 17vh; }
   .header__ul {
     list-style: none; }
     .header__ul--active {
@@ -26,5 +32,14 @@
 body {
   background-color: #A882DD; }
 
-p {
-  font-family: "Inknut Antiqua", serif; }
+.parrafo {
+  background-color: #B3F2DD;
+  color: #49416D;
+  text-transform: uppercase;
+  padding: 3rem; }
+
+.section {
+  background-color: #E08D79;
+  color: #49416D;
+  text-transform: uppercase;
+  padding: 1rem; }
