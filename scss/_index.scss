@@ -1,9 +1,25 @@
-header{
-    background-color: bisque;
+.header{
     display: flex;
     justify-content: space-between;
     align-content: center;
     &__logo{
-        margin-left: 1rem;}
-        
+            margin-left: 1rem;}
+    &__ul{
+        list-style: none;
+        &--active{
+            font-weight: 900;
+        }
+        a{
+            color: rgb(26, 136, 11) !important;
+        }
+            
+        a:hover{
+            font-weight: bold !important;
+        }
+    }
 }
+
+.colorNav{
+    background-color: rgb(252, 200, 236) !important;
+}
+

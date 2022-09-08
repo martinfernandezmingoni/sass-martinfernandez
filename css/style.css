@@ -3,13 +3,20 @@
   margin: 0;
   box-sizing: border-box; }
 
-.colorNav {
-  background-color: #fcc8ec !important; }
-
-header {
-  background-color: bisque;
+.header {
   display: flex;
   justify-content: space-between;
   align-content: center; }
-  header__logo {
+  .header__logo {
     margin-left: 1rem; }
+  .header__ul {
+    list-style: none; }
+    .header__ul--active {
+      font-weight: 900; }
+    .header__ul a {
+      color: #1a880b !important; }
+    .header__ul a:hover {
+      font-weight: bold !important; }
+
+.colorNav {
+  background-color: #fcc8ec !important; }
