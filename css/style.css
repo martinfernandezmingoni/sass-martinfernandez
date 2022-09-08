@@ -1,17 +1,15 @@
 * {
   padding: 0;
   margin: 0;
-}
+  box-sizing: border-box; }
 
 .colorNav {
-  background-color: rgb(252, 200, 236) !important;
-}
+  background-color: #fcc8ec !important; }
 
-nav a {
-  color: rgb(5, 143, 51) !important;
-}
-nav a:hover {
-  font-weight: bold;
-}
-
-/*# sourceMappingURL=style.css.map */
+header {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-content: center; }
+  header__logo {
+    margin-left: 1rem; }
