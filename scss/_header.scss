@@ -10,16 +10,24 @@
             font-weight: 900;
         }
         a{
-            color: rgb(26, 136, 11) !important;
+            color: $rojoMedio !important;
         }
             
         a:hover{
             font-weight: bold !important;
+            color: $uva !important;
         }
     }
 }
 
 .colorNav{
-    background-color: rgb(252, 200, 236) !important;
+    background-color: $menta !important;
 }
 
+body{
+    background-color: $lavanda;
+}
+
+p{
+    font-family: $cursiva;
+}

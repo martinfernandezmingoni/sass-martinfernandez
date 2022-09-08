@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Inknut+Antiqua:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -14,9 +15,16 @@
     .header__ul--active {
       font-weight: 900; }
     .header__ul a {
-      color: #1a880b !important; }
+      color: #E08D79 !important; }
     .header__ul a:hover {
-      font-weight: bold !important; }
+      font-weight: bold !important;
+      color: #49416D !important; }
 
 .colorNav {
-  background-color: #fcc8ec !important; }
+  background-color: #B3F2DD !important; }
+
+body {
+  background-color: #A882DD; }
+
+p {
+  font-family: "Inknut Antiqua", serif; }
