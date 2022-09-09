@@ -7,7 +7,8 @@
 
 2- Coloque etiquetas meta contenido en todos los html
     index: Veterinaria Romina el hogar de tus mascotas;
-    contacto: contacto con nosotros, nuestros locales;
+    contacto: contacto con nosotros, nuestros locgitales;
     gatitos: Todo sobre el cuidado y alimento sobre tus gatitos;
     perritos:Todo sobre el cuidado y alimento sobre tus perritos;
-    nosotros: 
+    nosotros: Informacion de nuestra veterinaria, y todo el amor para tus mascotas;
+    
