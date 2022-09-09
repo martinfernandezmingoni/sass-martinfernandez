@@ -1,0 +1,13 @@
+1- Coloque etiquetas meta keywords en todos los html:
+    index: veterinaria, animales, petshop, gatos, gatitos, perros, perritos;
+    contacto: contacto, busqueda, mapa, preguntas;
+    gatitos: animales, gatos, gatitos;
+    perritos: animales, perros, perritos;
+    nosotros: nosotros, informacion, detalles;
+
+2- Coloque etiquetas meta contenido en todos los html
+    index: Veterinaria Romina el hogar de tus mascotas;
+    contacto: contacto con nosotros, nuestros locales;
+    gatitos: Todo sobre el cuidado y alimento sobre tus gatitos;
+    perritos:Todo sobre el cuidado y alimento sobre tus perritos;
+    nosotros: 
